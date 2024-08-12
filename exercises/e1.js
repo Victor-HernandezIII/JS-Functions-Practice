@@ -15,6 +15,10 @@
 
 // Your code goes here
 
+export function logMessage(){
+  console.log('Hello, World!');
+}
+
 
 
 
@@ -31,7 +35,9 @@
 
 // Your code goes here...
 
-
+export function logMyMessage(message){
+  console.log(message);
+}
 
 
 /**
@@ -45,7 +51,9 @@
 */
 
 // Your code goes here...
-
+export function logMessageWithMyName(name){
+  console.log(`My name is ${name}!`);
+}
 
 
 
@@ -61,7 +69,9 @@
 */
 
 // Your code goes here...
-
+export function logMyInfo(name, age){
+  console.log(`My name is ${name}. I am ${age} years old!`);
+}
 
 
 
